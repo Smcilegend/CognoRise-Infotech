@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-size: cover;
+            background-position: center; 
+            background-image: url('https://unblast.com/wp-content/uploads/2021/01/Space-Background-Image-4.jpg');
+            
+        }
+
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        .pretitle {
+            margin: 0px;;
+            color: #8AE57C;
+            line-height: 0.5;
+        }
+
+        header {
+            text-align: center;
+            padding: 10px;
+        }
+
+        section {
+            margin: 20px 0;
+        }
+
+        h2 {
+            border-bottom: 2px solid #f4f4f4;
+            padding-bottom: 10px;
+        }
+
+        #introduction,
+        #background,
+        #projects,
+        #skills,
+        #experience,
+        #testimonials,
+        #blog,
+        #achievements,
+        #contact {
+            text-align: center;
+            color: white;
+
+        }
+
+        .project-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .project {
+            flex: 0 1 calc(50% - 20px);
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .project {
+                flex: 0 1 calc(100% - 20px);
+            }
+        }
+
+        .project,
+        .experience {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .contact-info a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="pretitle">
+            <h1>Michael R. Gibson</h1>
+            <p class="undertitle">
+                <span>
+            <font color="#FF2626">W</font>
+            <font color="#0F52BA">E</font>
+            <font color="#753422">B</font>
+                </span>
+            <br>
+            <br>
+            <font color="#71EFA3">D</font>
+            <font color="#0F52BA">E</font>
+            <font color="#66CC66">V</font>
+            <font color="#FF9966">E</font>
+            <font color="#FFCCCC">L</font>
+            <font color="#00C1D4">O</font>
+            <font color="#EFE3D0">P</font>
+            <font color="#0F52BA">E</font>
+            <font color="#66CC66">R</font>
+            </p>
+        </header>
+
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>Welcome to my digital space! I'm Michael, a creative web developer driven by a relentless passion for crafting digital experiences that captivate and inspire. With a blend of artistic flair and technical expertise, I thrive on pushing the boundaries of what's possible in the digital realm.</p>
+            <p>What is my mission? My mission is to harness the power of technology, particularly full-stack development & artificial intelligence, to tackle complex challenges head-on and pave the way for groundbreaking innovations. Join me on this exciting journey as we explore the endless possibilities of the digital frontier!</p>
+        </section>
+
+        <section id="background">
+            <h2>Background</h2>
+            <p><strong>Education:</strong> Self-Taught, BloomTech Institute of Technology, CognoRise InfoTech(Internship)</p>
+            <p><strong>Certifications:</strong> IBM- Introduction to HTML, CSS, JavaScript</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-container">
+                <div class="project">
+                    <h3>Project 1: Cryptocurrency Wallet</h3>
+                    <p><strong>Description:</strong> Developed a cryptocurrency wallet for 'Trebor Properties Token'.</p>
+                    <p><strong>Role:</strong> Full Stack Developer</p>
+                    <p><strong>Tech Used:</strong> HTML, CSS, JavaScript</p>
+                    <p><strong>Outcome:</strong> Successfully created a functional wallet with key generation, balance display, and transaction history.</p>
+                </div>
+                <div class="project">
+                    <h3>Project 2: Self Made Culture: Crime City</h3>
+                    <p><strong>Description:</strong> A game inspired by Grand Theft Auto V.</p>
+                    <p><strong>Role:</strong> Game Developer</p>
+                    <p><strong>Tech Used:</strong> Unity, C#</p>
+                    <p><strong>Outcome:</strong> Developed AI-controlled enemies and a gathering system for resources.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming Languages: JavaScript, C#</li>
+                <li>Web Development: HTML, CSS</li>
+                <li>Game Development: Unity, AI Programming</li>
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="experience">
+                <h3>CognoRise Infotech</h3>
+                <p><strong>Role: Web Developer</strong> Internship</p>
+                <p><strong>Responsibilities:</strong> To pass all task that have been provided by CognoRise Infotech</p>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+            <p>"Michael is an exceptional developer with a keen eye for detail." - Ronald G.</p>
+            
+        </section>
+
+        <section id="blog">
+            <h2>Blog/Articles</h2>
+            <ul>
+                <li><a href="link-to-article1" target="_blank">Enjoying My Portfolio?</a></li>
+                <li><a href="link-to-article2" target="_blank">Aspiring Junior Web Developer</a></li>
+                
+            </ul>
+        </section>
+
+        <section id="achievements">
+            <h2>Achievements</h2>
+            <ul>
+                <li>2020-2024 Baton Rouge Award: Business Hall of Fame</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:your.email@example.com">Devlandfullstack@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/michael-gibson-a1b317208/" target="_blank">Michael's LinkedIn Profile</a></p>
+        </section>
+    </div>
+
+    <script>
+        const clientName = window.prompt("Mike's Personal Portfolio, Type 1 to Enter my World:");
+    </script>
+</body>
+</html>
+
